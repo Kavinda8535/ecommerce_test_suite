@@ -10,6 +10,7 @@ class LoginPage:
         #self.login_btn = (By.XPATH, " //*[@id='send2'] ") //*[@id="send2"]
 
     def open_page(self, url):
+        print(f"login_page url {url}")
         self.driver.get(url)
 
     def enter_unsername(self, username):

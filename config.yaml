@@ -1,0 +1,23 @@
+environments:
+
+  dev:
+    BASE_URL: "https://magento.softwaretestingboard.com/customer/account/login/"
+    USERNAME: "dilii386xp@gmail.com"
+    PASSWORD: "Kevin@123"
+
+#  Example of dev settings...
+#  dev:
+##    BASE_URL: "https://dev.magento.softwaretestingboard.com/customer/account/login/"
+##    USERNAME: "dev_user@gmail.com"
+##    PASSWORD: "Dev@123"
+
+  test:
+    BASE_URL: "https://test.magento.softwaretestingboard.com/customer/account/login/"
+    USERNAME: "test_user@gmail.com"
+    PASSWORD: "Test@123"
+
+  prod:
+    BASE_URL: "https://magento.softwaretestingboard.com/customer/account/login/"
+    USERNAME: "prod_user@gmail.com"
+    PASSWORD: "Prod@123"
+
