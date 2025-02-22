@@ -39,9 +39,10 @@ def test_valid_login(driver):
     #time.sleep(1)
     #submit_btn.click()
 
-    welcomeGreet = driver.find_element(By.CLASS_NAME, "logged-in")
-    #assert "Welcome, Kevin Pat!" in welcomeGreet #logged-in
-    assert "logged-in" in welcomeGreet  # logged-in
+    welcomeGreet = driver.find_element(By.CLASS_NAME, "logged-in").text
+    #assert "Welcome, Kevin Pat!" in welcomeGreet this also correct...
+    #assert welcomeGreet == "Welcome, Kevin Pat!" # we can compare the text like this as well...
+    assert welcomeGreet in "Welcome, Kevin Pat!"
 
     time.sleep(1)
 
